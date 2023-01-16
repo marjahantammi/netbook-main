@@ -1,0 +1,126 @@
+@media only screen and (max-width: 767px) {
+
+    .header {
+        flex-direction: column;
+        margin: auto;
+        width: 767px;
+        gap: 20px;
+
+
+
+    }
+
+    .hero {
+
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: auto;
+        width: 767px;
+    }
+
+    .hero-content p {
+        margin: auto;
+        width: 200px;
+    }
+
+    .btn-group {
+        margin: auto;
+    }
+
+    .about-us {
+        flex-direction: column;
+        margin: auto;
+        width: 767px;
+        margin-top: 30px;
+    }
+
+    .about-us-image {
+        flex-direction: column;
+    }
+
+    .archivement {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .community-section {
+        width: 100%;
+    }
+
+    .community-section .features {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin: auto;
+        width: 100%;
+    }
+
+
+
+    .active-members {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .members {
+        flex-direction: column;
+    }
+
+    .application {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .lates-news {
+        width: 100%;
+        margin-top: 20px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .newses {
+        flex-direction: column;
+    }
+
+    .footer-top {
+        width: 767px;
+        margin: auto;
+    }
+
+    .footer-part {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-items {
+        width: 100%;
+        /* flex-direction: column;
+        gap: 50px; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-bottom {
+        width: 767px;
+        margin: auto;
+    }
+
+    .footer-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-right: 650px;
+
+    }
+
+    .footer-info {
+
+        margin-left: 100px;
+        margin-right: 650px;
+    }
+}
